@@ -19,7 +19,8 @@ const Editor = () => {
     </div>
       <textarea 
       name="editor-text-area" 
-      className=" m-0 border-gray-700 border-2 border-l-1 border-l-gray-200 font-base h-600 overflow-hidden" cols={100} 
+      className=" m-0 border-gray-700 border-2 border-l-1 border-l-gray-200 font-base h-600 overflow-hidden focus:outline-none"
+      cols={100} 
       rows={25}
       value={text}
       onChange={handleTextChange}
