@@ -1,6 +1,7 @@
 import './App.css';
 import Editor from './components/Editor';
 import Header from './components/Header';
+import MainBody from './components/MainBody';
 import Output from './components/Output';
 import './input.css';
 
@@ -8,10 +9,10 @@ function App() {
   return (
     < >
       <Header />
-      <div className='lg:grid grid-cols-2 gap-2 place-content-center '>
+      <MainBody>
         <Editor />
         <Output />
-      </div>
+      </MainBody>
     </>
   );
 }
